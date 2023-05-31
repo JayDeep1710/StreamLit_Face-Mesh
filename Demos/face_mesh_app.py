@@ -1,6 +1,4 @@
-#Modified by Augmented Startups 2021
-#Face Landmark User Interface with StreamLit
-#Watch Computer Vision Tutorials at www.augmentedstartups.info/YouTube
+
 import streamlit as st
 import mediapipe as mp
 import cv2
@@ -292,4 +290,3 @@ elif app_mode =='Run on Image':
             kpi1_text.write(f"<h1 style='text-align: center; color: red;'>{face_count}</h1>", unsafe_allow_html=True)
         st.subheader('Output Image')
         st.image(out_image,use_column_width= True)
-# Watch Tutorial at www.augmentedstartups.info/YouTube
